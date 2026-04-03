@@ -11,7 +11,7 @@ const Insights = ({ transactions }) => {
   const highest = Object.entries(categories).sort((a, b) => b[1] - a[1])[0];
 
   return (
-    <div className="bg-purple-100 dark:bg-purple-800 p-4 rounded-xl shadow hover:scale-105 transition">
+    <div className="bg-purple-500 dark:bg-purple-800 p-4 rounded-xl shadow hover:scale-105 transition">
       <h2 className="font-sans">Insights</h2>
 
       {highest && (
